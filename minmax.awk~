@@ -1,0 +1,22 @@
+BEGIN {FS=","}
+{
+  # Initialize the min and max variables to the value of the first row.
+  if (NR == 1) {
+    min = $17
+    max = $17
+  }
+
+  # Update the min and max variables if the current row is less than or greater than the current min and max values.
+  if ($17 < min) {
+    min = $17
+  }
+  if ($17 > max) {
+    max = $17
+  }
+}
+
+END {
+  # Print the min and max sales.
+  print "Min sales:", min
+  print "Max sales:", max
+}

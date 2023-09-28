@@ -1,0 +1,5 @@
+(1)Row ID,(2)Order ID,(3)Order Date,(4)Ship Date,
+(5)Ship Mode,(6)Customer ID,
+(7)Customer Name,(8)Segment,(9)Country,City,
+(10)State,(11)Postal Code,(12)Region,(13)Product ID,
+(14)Category,(15)Sub-Category,(16)Product Name,(17)Sales
