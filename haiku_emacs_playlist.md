@@ -1,5 +1,5 @@
 * GITHUB.COM: https://github.com/davidjayjackson/HaikuOS/
-
+* Git Clone: https://github.com/davidjayjackson/HaikuOS.git
 * Haiku OS Install (BeOS Clone): 
 https://youtu.be/MvK2_cHjA8M?si=oRHyQKMuqMigh2wT
 * Haiku OS Update (and failed Pandas installed): 
