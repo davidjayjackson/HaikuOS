@@ -1,3 +1,4 @@
+NR > 1
 BEGIN{FS=","}
 {
   # Increment the count variable for each line.
