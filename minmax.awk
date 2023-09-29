@@ -1,6 +1,5 @@
 BEGIN {FS=","}
 {
-print $10
 # Initialize the min and max variables to the value of the first row.
   if (NR == 1) {
     min = $17
