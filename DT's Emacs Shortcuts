@@ -1,0 +1,58 @@
+## DT's Emacs shortcuts
+* Title: The Basics of Emacs as a Text Editor
+* Source : https://youtu.be/jPkIaqSh3cA?si=FR_wGhBR8YFGPwGg
+```
+Some of the commands I will go over include:
+(1) Opening Documents
+       C-x C-f for find file
+       You can type full path to a file or create a new document.
+       You could also just open the path to a directory and find the file.
+(2) C-x C-+, C-x C-- For Zoom In/Out
+       C-n, C-p, C-f, C-b
+       M-f, M-b (forward/back by words)
+       C-a, C-e (beginning/end of line)
+       M-a, M-e (backwards/forwards by sentence)
+       M-{, M-} (backwards/forwards by paragraph)
+       M-"LESS THAN", M-"GREATER THAN" (beginning/end of file)
+       M-g g (goto line number)
+       ESC-number C-n/p/f/b (perform motion that number of times)
+(4) Cut, Copy and Paste
+       C-space to select text to copy/cut
+       C-w cut highlighted
+       M-w copy highlighted
+       C-y paste
+       C-k cut to end of line?
+       C-x backspace, M-k (backwards/forwards delete the current line)
+       M-z character cuts to that character
+       ESC-number ESC-d deletes that number of words
+       C-x u undo
+       C-h v kill-ring
+       C-x 0 to close the kill-ring window
+       C-y Esc-y to cycle through kill-ring for paste
+(4) Buffers
+       C-x b select another buffer
+       C-x C-b list all buffers
+       C-x k kill a buffer
+(5) Case change
+       M-c capitalizes a word
+       M-u uppercase word
+       M-l lowercase word
+(6) Spell Check
+       M-$ check current word
+       sudo pacman -S aspell-en (for Arch users)
+(7) Query replace M-% (shift-5)
+       Will only look forward in the file!
+       RET exits the query replace
+(8) Search
+       C-s to search forward
+       C-r to search backward
+(9) Splits
+       C-x 2 Horizontal Split
+       C-x 3 Vertical Split
+       C-x 0 Close window
+       C-x 4f Opens file in other window
+       C-x o moves cursor to next frame
+(10) Save and Exit
+       C-x C-s Save
+       C-x C-c Quit
+```
