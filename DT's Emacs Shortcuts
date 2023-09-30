@@ -7,7 +7,9 @@ Some of the commands I will go over include:
        C-x C-f for find file
        You can type full path to a file or create a new document.
        You could also just open the path to a directory and find the file.
-(2) C-x C-+, C-x C-- For Zoom In/Out
+(2) For Zoom In/Out
+       C-x C-+, C-x C-- 
+(3) Basic Navigation
        C-n, C-p, C-f, C-b
        M-f, M-b (forward/back by words)
        C-a, C-e (beginning/end of line)
