@@ -1,1 +1,2 @@
-https://github.com/davidjayjackson/HaikuOS.git
+*Git Clone: https://github.com/davidjayjackson/HaikuOS.git
+* SQLite3 dot commands: https://sqlite.org/cli.html
